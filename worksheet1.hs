@@ -42,5 +42,27 @@ triangleArea a b c
         in sqrt(s * ((s - a)*(s - b)*(s - c)))
     |otherwise = 0
 
+{-
+('a', '2') : (char, char)
+('b', '1') : (char, Int)
+['a','b','c'] : [char]
+1 + 2 == 4 : Bool
+not : Bool -> Bool
+sqrt : Float -> Float
+[tail, init, reverse] : [[a] -> [a]]
+([False, True], [True , False]) : ([Bool], [Bool])
+[(False, True), (True, False)] : [(Bool, Bool)]
 
+(a) second xs = head (tail xs)
+(b) swap (x,y) = (y,x)
+(c) pair x = (x,x)
+(d) double x = 2*x
+(e) half x = x/2
+(f) average x y = (x+y)/2
+(g) isLower x = x>=’a’ && x<=’z’
+(h) inRange x lo hi = x>=lo && x<= hi
+(i) isPalindrome xs = xs == reverse xs
+(j) twice f x = f (f x)
 
+B C D G J K N
+}
