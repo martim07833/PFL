@@ -47,4 +47,4 @@ cmp2 :: Card -> Card -> Ordering
 
 cmp2 (Card f1 s1)(Card f2 s2) =
     case compare s1 s2 of
-        EQ 
+        EQ

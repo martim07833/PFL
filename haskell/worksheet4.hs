@@ -88,4 +88,4 @@ hamming2 = 1 : merge (map (2*) hamming2) -- gives all numbers that are twice a H
 -- 4.5)
 -- a)
 
-rot13 :: 
+rot13 ::
